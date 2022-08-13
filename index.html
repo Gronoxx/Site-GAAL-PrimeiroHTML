@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="PT-Br">
+<head>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+  
+        input[type=number] {
+            -moz-appearance: numberfield;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="./styles.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="Canvas" width="500" height="500"> <h1>Seu Browser não possui suporte ao Canvas</h1> </canvas>
+    <script src="E:\HTML Teste\node_modules\mathjs\lib\browser\math.js" ></script> 
+    <script src="./scripts.js" ></script>
+    <h1>Identificador de Cônica</h1>
+    <div class="mainsquare">
+<p>Uma equação de uma cônica possui o seguinte formato geral:</p>
+<p id="segundoparagrafo"> ax^2+bxy+cy^2+dx+ey+f=0</p>
+<p>Informe a, b, c, d, e, f.</p>
+<div id="textoinstrucional">
+    
+     <p>Instruções: Insira os valores com os símbolos adequados quando necessários(+,-,*,/,√). Redobre a atenção com os símbolos(*,√), pois formatos como: 4√ 10 NÃO serão aceitos, por dois motivos: falta de * entre o "4" e "√" e espaço indevido entre "√" e valor "10", caso deseje acrescentar () é recomendado no caso das raízes, porém não é necessário. Exemplo de entradas: 4, 4/5 , 2*√3, 5*√(6/3). Qualquer problema envie seu feedback! ;)</p>
+    </div>
+    <br>
+<input 
+type="text"
+class="inputnumber" 
+id="inputa"
+/>
+<label for="numbera" class="form_label" id="form_labela">a</label>
+<input 
+type="text"
+class="inputnumber" 
+id="inputb" 
+/>
+<label for="numberb" class="form_label" id="form_labelb">b</label>
+<input 
+type="text"
+class="inputnumber" 
+id="inputc" 
+inputmode="numeric"
+/>
+<label for="numberc" class="form_label" id="form_labelc">c</label>
+<input 
+type="text"
+class="inputnumber" 
+id="inputd" 
+/>
+<label for="numberd" class="form_label" id="form_labeld">d</label>
+<input 
+type="text"
+class="inputnumber" 
+id="inpute" 
+/>
+<label for="numbere" class="form_label" id="form_labele">e</label>
+<input 
+type="text"
+class="inputnumber" 
+id="inputf" 
+/>
+<label for="numberf" class="form_label" id="form_labelf">f</label>
+
+<a href="#" id="atag"><span>Enviar</span></a>
+
+    </div>
+<div id="properties">
+
+</div>
+<div class="container" >
+    <form >
+        <h3>DEIXE SEU FEEDBACK!</h3>
+        <div id="email">E-mail: gus.apolinario@hotmail.com</div>
+        <li class="Lista">Erro</li>
+<li class="Lista">Críticas</li>
+<li class="Lista">Elogios</li>
+<li class="Lista2">Dúvidas</li>
+<li class="Lista2">Sugestões</li>
+<li class="Lista2">Compartilhe</li>
+    </form>
+</div>
+
+
+</div>
+<p1></p1>
+
+</body>
+</html>

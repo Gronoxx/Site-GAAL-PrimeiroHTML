@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+h1{
+    color: white;
+    text-align: center;
+}
+body{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    background-color: #222;
+    color: white;
+}
+p1
+{
+    color:#00ffff;
+}
+p2
+{
+    color:#ff0062;
+}
+.mainsquare{
+    background-color: #222;
+    width: 98%;
+    margin: auto;
+    margin-top: 3%;
+    height: 1000px;
+}
+.inputnumber{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    width: 10%;
+    height: 16px;
+    font-family: 'Poppins';
+    border-bottom: 2px solid #d3d3d3;
+    outline:0;
+    font-size: 1.3rem;
+    color: #222;
+    padding: 7px 0;
+    background: transparent;
+    border-left: white;
+    border-right: white;
+    border-top:  white;
+    color:#d3d3d3;
+
+}
+.inputnumber:focus{
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #ff0062,#00ffff);
+    border-image-slice:1;
+
+
+}
+#inputa:focus ~ #form_labela{
+    bottom: 25px;
+    color:#00ffff;
+ }
+ #inputb:focus ~ #form_labelb{
+    bottom: 25px;
+    color:#00ffff;
+ }
+ #inputc:focus ~ #form_labelc{
+    bottom: 25px;
+    color:#00ffff;
+ }
+ #inputd:focus ~ #form_labeld{
+    bottom: 25px;
+    color:#00ffff;
+ }
+ #inpute:focus ~ #form_labele{
+    bottom: 25px;
+    color:#00ffff;
+ }
+ #inputf:focus ~ #form_labelf{
+    bottom: 25px;
+    color:#00ffff;
+ }
+.form_label
+{
+    
+    position: relative;
+    bottom:10px;
+    right: 135px;
+    font-size: 1.3rem;
+    color: #d3d3d3;
+    transition-property: bottom;
+    transition-duration: 0.4s;
+}
+form{
+    color:white;
+    width: 1210px;
+    height: 100px;
+    
+    border: 4px solid;
+    border-image: linear-gradient(45deg,white,black);
+    border-image-slice: 1;
+    background: linear-gradient(white,#ff0062,#00ffff);
+    opacity: 70%;
+    flex-direction: column;
+    padding: 2vw 4vw;
+}
+
+#segundoparagrafo{
+    margin: auto;
+}
+#submitbutton{
+    background-color: black;
+    width:15%;
+    color : white;
+    border: 2px solid blue;
+}
+#email{
+    font-family: 'Poppins';
+    position: relative;
+    bottom:30px;
+}
+.Lista{
+    color:white;
+    position: relative;
+    bottom: 130px;
+    left: 700px;
+}
+.Lista2{
+     color:white;
+    position: relative;
+    bottom: 235px;
+    left: 950px;
+}
+#textoinstrucional
+{
+    font-size: 1rem;
+    border: 4px solid;
+    border-color: white;
+}
+#Canvas{
+    position:absolute;
+    border: 4px solid transparent;
+    border-image:linear-gradient(#ff0062,#00ffff);
+    border-image-slice: 1;
+    top: 570px;
+    left: 410px;
+    background-size: 400%;
+}
+a
+{
+    font-family: 'Poppins';
+    font-size:1.3rem;
+    position:absolute;
+    width: 160px;
+    height: 50px;
+    line-height: 48px;
+    background: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+a::before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #fb0094,#00f,#0f0,#ff0,#f00, #fb0094,#00f,#0f0,#ff0,#f00);
+    background-size: 400%;
+    opacity:0%;
+    transition: 0.5s;
+    animation: animate 20s linear infinite;
+}
+
+a::after{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: linear-gradient(45deg, #fb0094,#00f,#0f0,#ff0,#f00, #fb0094,#00f,#0f0,#ff0,#f00);
+    background-size: 400%;
+    opacity:0%;
+    filter:blur(20px);
+    transition: 0.5s;
+    animation: animate 20s linear infinite;
+}
+
+a:hover::before,
+a:hover::after
+{
+    opacity:1;
+}
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0,0;
+
+    }
+    50%
+    {
+        background-position: 300%,0;
+        
+    }
+    100%
+    {
+        background-position: 0,0;
+        
+    }
+}
+
+a span
+{
+    position: absolute;
+    display: block;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    text-align: center;
+    background: #0c0c0c;
+    color:rgba(255,255,255,0.2);
+    transition: 0.5s;
+    z-index: 1;
+}
+a:hover span
+{
+    color:rgba(255,255,255,1);
+
+}
+
+
