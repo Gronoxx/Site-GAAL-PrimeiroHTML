@@ -6,3 +6,4 @@ A intenção desse projeto foi entender os básicos desses fundamentos através 
 
 
 Sendo meu primeiro projeto tentei testá-lo ao máximo a fim de evitar erros, mas claro que pretendo atualizar de acordo com as demandas e feedbacks.
+Para ver o resultado acesse o Link: https://delicate-frangipane-ae8863.netlify.app/
